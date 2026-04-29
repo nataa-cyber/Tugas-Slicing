@@ -1,0 +1,70 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ font-family:Arial;
+}
+
+.navbar{
+ background:#222;
+ padding:15px 30px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.logo{
+ color:white;
+}
+
+.nav-menu{
+ display:flex;
+ list-style:none;
+}
+
+.nav-menu li{
+ margin-left:20px;
+}
+
+.nav-menu a{
+ color:white;
+ text-decoration:none;
+}
+
+.hamburger{
+ display:none;
+ color:white;
+ font-size:28px;
+ cursor:pointer;
+}
+
+/* TABLET dan HP */
+@media(max-width:768px){
+
+.hamburger{
+ display:block;
+}
+
+.nav-menu{
+ display:none;
+ flex-direction:column;
+ background:#333;
+ width:100%;
+ position:absolute;
+ top:60px;
+ left:0;
+}
+
+.nav-menu.active{
+ display:flex;
+}
+
+.nav-menu li{
+ text-align:center;
+ margin:15px 0;
+}
+
+}

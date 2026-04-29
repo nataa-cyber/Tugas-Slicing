@@ -1,0 +1,32 @@
+.hero {
+  background: #dbeafe;  /* biru muda */
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1e293b;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+.btn-hero {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 13px 32px;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-hero:hover { background: #1d4ed8; }

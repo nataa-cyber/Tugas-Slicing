@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background:#f5f5f5;
+    padding:40px;
+}
+
+.form-box{
+    width:350px;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+.form-box h2{
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:6px;
+    margin-top:12px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:100px;
+    resize:none;
+}
+
+/* valid look saat diklik */
+input:focus,
+textarea:focus{
+    outline:none;
+    border:1px solid #2563eb;
+    box-shadow:0 0 4px #2563eb;
+}
+
+button{
+    width:100%;
+    margin-top:18px;
+    padding:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
